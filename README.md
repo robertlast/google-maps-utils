@@ -3,6 +3,34 @@
 > Utilities for working with google maps.
 
 
+### bounds/extend-to-feature.js
+
+
+#### extendBoundsToFeature(bounds, feature) 
+
+Returns the given string with first letter capitalized and the rest lowercase.
+
+
+
+
+##### Parameters
+
+| Name | Type | Description |  |
+| ---- | ---- | ----------- | -------- |
+| bounds | `Object`  | Google Map's LatLngBounds | &nbsp; |
+| feature | `Object`  | Google Map's Marker or Data | &nbsp; |
+
+
+
+
+##### Returns
+
+
+- `Void`  
+
+
+
+
 ### bounds/extend-to-geometry.js
 
 
