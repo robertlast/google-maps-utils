@@ -5,12 +5,18 @@
   "description": "Utilities for working with google maps.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha **/*.spec.js",
+    "docs": "doxdox './**/*.js' --ignore './**/index.js' --layout markdown --output README.md"
   },
   "author": {
     "name": "Rob Last",
     "email": "robert.last@gmail.com",
     "url": "https://github.com/robertlast"
   },
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "doxdox": "^2.0.3",
+    "mocha": "^4.0.1"
+  }
 }
