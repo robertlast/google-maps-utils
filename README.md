@@ -26,7 +26,7 @@ Returns the given string with first letter capitalized and the rest lowercase.
 ##### Returns
 
 
-- `Void`  
+- `Undefined`  
 
 
 
