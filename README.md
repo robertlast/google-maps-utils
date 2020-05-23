@@ -8,7 +8,7 @@
 
 #### extendBoundsToFeature(bounds, feature) 
 
-Returns the given string with first letter capitalized and the rest lowercase.
+Extend the LatLngBounds to a generic feature.
 
 
 
