@@ -34,7 +34,7 @@ Returns the given string with first letter capitalized and the rest lowercase.
 ### bounds/extend-to-geometry.js
 
 
-#### extendBoundsToGeometry(bounds, feature) 
+#### extendBoundsToGeometry(bounds, geometry) 
 
 Extend LatLngBounds to cover a given geometry object. 
 
