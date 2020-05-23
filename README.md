@@ -46,7 +46,7 @@ Extend LatLngBounds to cover a given geometry object.
 | Name | Type | Description |  |
 | ---- | ---- | ----------- | -------- |
 | bounds | `Object`  | Google Map's LatLngBounds | &nbsp; |
-| feature | `Object`  | Google Map's LatLngBounds or Data.Point | &nbsp; |
+| geometry | `Object`  | Google Map's LatLng | &nbsp; |
 
 
 
